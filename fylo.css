@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 15px;
+
+    width: 100%;
+    max-width: 270px;
+}
+
+.logo {
+    flex: 1;
+    max-width: 60px;
+    margin-right: 50px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+nav {
+    flex: 2;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 5px 0;
+    cursor: pointer;
+}
+
+nav ul li:hover {
+    border-bottom: 2px solid rgb(248, 199, 35);
+}
+
+/* nav ul .pad {
+    margin-left: 5px;
+    margin-right: 5px;
+} */
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: .7rem;
+    font-weight: bold;
+}
+
+
+
+
+
+/* Showcase 1 Styling */
+
+.showcase-1 {
+    width: 100%;
+    max-width: 270px;
+
+    display: flex;
+    flex-direction: column-reverse;
+
+    padding: 80px 0 120px 0;
+}
+
+.showcase-1 .showcase-left {
+    flex: 1;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.showcase-1 .showcase-left h1 {
+    text-align: center;
+    font-size: 1.4rem;
+    padding: 30px 21px;
+    line-height: 30px;
+}
+
+.showcase-1 .showcase-left p {
+    text-align: center;
+    line-height: 20px;
+    padding: 0 15px 25px 15px;
+    font-size: .81rem;
+}
+
+input {
+    width: 90%;
+    padding: 10px 20px;
+    border: 1px solid #000;
+    border-radius: 3px;
+    outline: none;
+
+    margin-bottom: 15px;
+}
+
+button {
+    border-radius: 3px;
+    border: none;
+    width: 90%;
+    padding: 12px 20px;
+    background: rgb(24, 80, 163);
+    font-size: .75rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+
+
+.showcase-1 .showcase-right {
+    flex: 1;
+    width: 100%;
+}
+
+.showcase-1 .showcase-right img {
+    width: 100%;
+}
+
+
+
+/* Showcase 2 Styling */
+
+.showcase-2 {
+    width: 100%;
+    max-width: 270px;
+
+    display: flex;
+    flex-direction: column-reverse;
+
+    padding: 0 0 70px 0;
+}
+
+.showcase-left-2 {
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.showcase-2 .showcase-left-2 h1 {
+    text-align: center;
+    font-size: 1.4rem;
+    padding: 30px 21px;
+    line-height: 30px;
+}
+
+.showcase-2 .showcase-left-2 p {
+    text-align: center;
+    line-height: 20px;
+    padding: 0 15px 25px 15px;
+    font-size: .81rem;
+}
+
+
+
+.showcase-right-2 {
+    flex: 1;
+    width: 100%;
+}
+
+.showcase-right-2 img {
+    width: 100%;
+}
+
+span a {
+    text-decoration: none;
+    color: rgb(18, 170, 86);
+    font-size: .8rem;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgb(18, 170, 86);
+    cursor: pointer;
+}
+
+article {
+    width: 90%;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px -5px #000;
+}
+
+h3 {
+    font-size: .7rem;
+}
+
+article span {
+    font-size: 1.67rem;
+}
+
+.div1 {
+    padding-bottom: 20px;
+}
+
+
+.div2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div2-1 {
+    flex: 1;
+}
+
+.div2-2 {
+    flex: 3.5;
+}
+
+.div2 .div2-1 img {
+    border-radius: 50%;
+    width: 70%;
+}
+
+.div2-2 h4 {
+    font-size: .7rem;
+    font-weight: bolder;
+}
+
+.div2-2 span {
+    font-size: .5rem;
+}
+
+
+/* Get-early-access Styling */
+
+.get-early-access {
+    width: 100%;
+    max-width: 270px;
+
+    color: #fff;
+    padding: 50px 30px;
+    text-align: center;
+
+    background: rgb(142, 116, 255);
+}
+
+.get-early-access h2 {
+    font-size: .9rem;
+    padding-bottom: 15px;
+}
+
+.get-early-access p {
+    font-size: .70rem;
+    padding-bottom: 15px;
+}
+
+.get-early-access input {
+    width: 100%;
+    padding: 7px 20px;
+    border: none;
+}
+
+.get-early-access button {
+    width: 100%;
+    padding: 7px 20px;
+    color: #fff;
+}
+
+
+
+/* Footer Styling */
+
+footer {
+    width: 100%;
+    max-width: 270px;
+
+    background: rgb(49, 46, 92);
+
+    color: #fff;
+    padding: 50px 30px; 
+    font-size: .9rem;
+    font-weight: normal;   
+}
+
+
+.one {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.two {
+    padding-bottom: 30px;
+}
+
+.two ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.two ul li {
+    list-style: none;
+}
+
+.two ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.three ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.three ul li {
+    list-style: none;
+}
+
+.three ul li a {
+    text-decoration: none;
+    color: #fff;
+}
