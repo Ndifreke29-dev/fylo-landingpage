@@ -268,15 +268,19 @@ article span {
 }
 
 .get-early-access input {
-    width: 100%;
-    padding: 7px 20px;
+    width: 90%;
+    padding: 10px 20px;
     border: none;
 }
 
 .get-early-access button {
-    width: 100%;
-    padding: 7px 20px;
+    width: 90%;
+    padding: 10px 20px;
     color: #fff;
+}
+
+::placeholder {
+    font-size: .7rem;
 }
 
 
