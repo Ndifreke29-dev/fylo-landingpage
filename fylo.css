@@ -204,6 +204,7 @@ article {
 
 h3 {
     font-size: .7rem;
+    line-height: 15px;
 }
 
 article span {
@@ -265,6 +266,7 @@ article span {
 .get-early-access p {
     font-size: .70rem;
     padding-bottom: 15px;
+    line-height: 20px;
 }
 
 .get-early-access input {
@@ -277,6 +279,14 @@ article span {
     width: 90%;
     padding: 10px 20px;
     color: #fff;
+}
+
+.get-early-access button:hover {
+    opacity: .8;
+}
+
+.get-early-access button:active {
+    opacity: .5;
 }
 
 ::placeholder {
