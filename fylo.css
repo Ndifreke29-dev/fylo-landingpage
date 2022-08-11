@@ -383,3 +383,181 @@ footer {
     font-size: 1.5rem;
     padding: 0 25px;
 }
+
+
+
+
+@media (min-width: 700px) {
+    .showcase-1 .showcase-left h1 {
+        font-size: 2.5rem;
+        line-height: 50px;
+        text-align: left;
+    }
+
+    .showcase-1 .showcase-left p {
+        font-size: 1.1rem;
+        line-height: 28px;
+        text-align: left;
+    }
+
+    header {
+        padding: 40px 100px 40px 100px;
+    }
+
+    .logo img{
+        width: 180px;
+    }
+
+    nav {
+        width: 230px;
+        font-size: 2rem;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: #000;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    .showcase-1 {
+        width: 100%;
+        /* max-width: 270px; */
+    
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    
+        padding: 80px 100px 120px 100px;
+    }
+
+    .showcase-1 .showcase-left {
+        text-align: left;
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        /* max-width: 200px; */
+
+    }
+
+    .showcase-1 .showcase-left .input-button {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        margin-left: 15px;
+
+        justify-content: start;
+        align-items: start;
+    }
+
+    .showcase-1 .showcase-left input {
+        flex: 2;
+        width: 500px;
+        padding: 10px 90px 10px 10px;
+    }
+
+    ::placeholder {
+        font-size: .9rem;
+        text-align: left;
+    }
+    
+    button {
+        flex: 1;
+        width: 50%;
+        padding: 12px 20px;
+    }
+
+    
+    
+    .showcase-2 {
+        width: 100%;
+        /* max-width: 270px; */
+    
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    
+        padding: 80px 100px 120px 100px;
+    }
+
+    .showcase-2 .showcase-left-2 {
+        display: flex;
+        justify-content: start;
+        align-items: flex-start;
+    }
+
+    .showcase-2 .showcase-left-2 h1 {
+        font-size: 2rem;
+        line-height: 50px;
+        text-align: left;
+    }
+
+    .showcase-2 .showcase-left-2 p {
+        font-size: 1rem;
+        line-height: 28px;
+        text-align: left;
+        margin-left: 15px;
+    }
+
+    article {
+        max-width: 300px;
+        margin-left: 30px;
+    }
+
+
+    .get-early-access {
+        padding: 50px 90px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: left;
+        gap: 30px;
+    }
+
+    .get-early-access h2 {
+        font-size: 1.88rem;
+        line-height: 50px;
+        text-align: left;
+    }
+
+    .get-early-access p {
+        font-size: 1rem;
+        line-height: 28px;
+        text-align: left;
+    }
+
+    .get-early-left {
+        flex: 1;
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .get-early-right {
+        flex: 1;
+        width: 100%;
+        max-width: 400px;
+    }
+
+    
+    .get-early-access input {
+        width: 90%;
+        padding: 10px 20px;
+        border: none;
+    }
+
+    .get-early-access button {
+        width: 50%;
+        max-width: 200px;
+        padding: 10px 20px;
+        color: #fff;
+    }
+
+
+    footer {
+        padding: 70px 100px 70px 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+}
