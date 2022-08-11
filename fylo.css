@@ -309,6 +309,7 @@ footer {
 
 .tel {
     display: flex;
+    padding-top: 20px;
 }
 
 .tel .left {
