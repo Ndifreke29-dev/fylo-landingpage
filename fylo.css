@@ -18,15 +18,13 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 15px;
+    padding: 30px 40px;
 
     width: 100%;
-    max-width: 270px;
 }
 
 .logo {
-    flex: 1;
-    max-width: 60px;
+    max-width: 100px;
     margin-right: 50px;
 }
 
@@ -35,7 +33,7 @@ header {
 }
 
 nav {
-    flex: 2;
+    width: 45%;
 }
 
 nav ul {
@@ -54,10 +52,10 @@ nav ul li:hover {
     border-bottom: 2px solid rgb(248, 199, 35);
 }
 
-/* nav ul .pad {
+nav ul .pad {
     margin-left: 5px;
     margin-right: 5px;
-} */
+}
 
 nav ul li a {
     text-decoration: none;
@@ -74,12 +72,12 @@ nav ul li a {
 
 .showcase-1 {
     width: 100%;
-    max-width: 270px;
+    /* max-width: 270px; */
 
     display: flex;
     flex-direction: column-reverse;
 
-    padding: 80px 0 120px 0;
+    padding: 80px 40px 120px 40px;
 }
 
 .showcase-1 .showcase-left {
@@ -144,12 +142,12 @@ button {
 
 .showcase-2 {
     width: 100%;
-    max-width: 270px;
+    /* max-width: 270px; */
 
     display: flex;
     flex-direction: column-reverse;
 
-    padding: 0 0 70px 0;
+    padding: 0 40px 70px 40px;
 }
 
 .showcase-left-2 {
@@ -250,10 +248,10 @@ article span {
 
 .get-early-access {
     width: 100%;
-    max-width: 270px;
+    /* max-width: 270px; */
 
     color: #fff;
-    padding: 50px 30px;
+    padding: 50px 40px;
     text-align: center;
 
     background: rgb(142, 116, 255);
@@ -287,12 +285,12 @@ article span {
 
 footer {
     width: 100%;
-    max-width: 270px;
+    /* max-width: 270px; */
 
     background: rgb(49, 46, 92);
 
     color: #fff;
-    padding: 50px 30px; 
+    padding: 50px 40px; 
     font-size: .9rem;
     font-weight: normal;   
 }
